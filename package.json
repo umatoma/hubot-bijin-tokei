@@ -1,25 +1,25 @@
 {
-  "name": "hubot-tokei",
+  "name": "hubot-bijin-tokei",
   "description": "A hubot script that display time in the image.",
   "version": "0.0.0",
   "author": "umatoma <umatomakun@gmail.com>",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-tokei.git"
+    "url": "git://github.com/hubot-scripts/hubot-bijin-tokei.git"
   },
-
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-tokei/issues"
+    "url": "https://github.com/hubot-scripts/hubot-bijin-tokei/issues"
   },
-
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "lodash": "^4.6.1",
+    "moment": "^2.12.0"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +30,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }

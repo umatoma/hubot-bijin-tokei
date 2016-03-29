@@ -1,19 +1,19 @@
-# hubot-tokei
+# hubot-bijin-tokei
 
 A hubot script that display time in the image.
 
-See [`src/tokei.coffee`](src/tokei.coffee) for full documentation.
+See [`src/bijin-tokei.coffee`](src/bijin-tokei.coffee) for full documentation.
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-tokei --save`
+`npm install hubot-bijin-tokei --save`
 
-Then add **hubot-tokei** to your `external-scripts.json`:
+Then add **hubot-bijin-tokei** to your `external-scripts.json`:
 
 ```json
-["hubot-tokei"]
+["hubot-bijin-tokei"]
 ```
 
 ## Sample Interaction
