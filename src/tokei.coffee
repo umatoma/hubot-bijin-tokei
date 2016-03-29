@@ -16,7 +16,7 @@ TIMER_CRONS = process.env.HUBOT_BIJIN_TOKEI_TIMER_CRONS || ''
 
 module.exports = (robot) ->
   robot.respond /tokei now$/, (msg) ->
-    msg.send BijinTokei.getAt time
+    msg.send BijinTokei.getAt moment().format('HHmm')
 
   robot.respond /tokei now (.+)/, (msg) ->
     area = msg.match[1].trim()
