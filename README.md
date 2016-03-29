@@ -8,7 +8,7 @@ See [`src/bijin-tokei.coffee`](src/bijin-tokei.coffee) for full documentation.
 
 In hubot project repo, run:
 
-`npm install hubot-bijin-tokei --save`
+`npm install git://github.com/umatoma/hubot-bijin-tokei --save`
 
 Then add **hubot-bijin-tokei** to your `external-scripts.json`:
 
@@ -19,6 +19,9 @@ Then add **hubot-bijin-tokei** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user> hubot tokei now
+hubot> http://www.bijint.com/assets/pict/kagoshima/pc/1332.jpg
+
+user> hubot tokei now tokyo
+hubot> http://www.bijint.com/assets/pict/tokyo/pc/1332.jpg
 ```
